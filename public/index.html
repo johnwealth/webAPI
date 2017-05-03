@@ -28,7 +28,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -43,19 +43,15 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav pull-right">
-                    <li>
-                        <a href="#">Login</a>
+                    <li>    
+                     <a href="#myModal"  data-toggle="modal">Login</a> 
                     </li>
                      <li>
                         <a href="#menu-toggle" id="menu-toggle"> Menu </a>
-                    </li>
-                     
-                  
+                    </li>                  
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
     </nav>
 
     <div id="wrapper">
@@ -103,7 +99,7 @@
   </ol>
   <!-- Carousel items -->
   <div class="carousel-inner">
-    <div class="active item"><img src="images/test72.jpg"></div>
+    <div class="active item"><img src="images/new.jpg"></div>
     <div class="item"><img src="images/bg55.jpg"></div>
   </div>
   <!-- Carousel nav -->
@@ -116,132 +112,145 @@
             </div>
         </div>
 
+        <!-- page links -->
+ <div class = "container" >
+ <div class = "row" >
+     <div class = "col-md-9 offet-1 pull-right" >
+         <ul class="menu ">
+         <li>
+             <a href="#">HOME</a>
+          </li>
+        <li>
+             <a href="#">EDITOR' PICK </a>
+           </li>
+          
+        <li>
+             <a href="#">EXPLOY</a>
+         </li>   
+        </ul>
+  </div>
+</div>
+
+
         <!-- /#page-content-wrapper -->
         
-        <div class="container">
-        <div class="row">
- <!-- Blog Post Content Column -->
-            <div class="col-lg-8">
+      
+        <!-- Projects Row -->
+   
+ <div class="container">
+        <div class="row text-center">
+            <div class="col-md-3 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/300x400" alt="">
+                </a>
+            </div>
+            <div class="col-md-3 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/300x400" alt="">
+                </a>
+            </div>
+            <div class="col-md-3 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/300x400" alt="">
+                </a>
+        </div>
+          <div class="col-md-3 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/300x400" alt="">
+                </a>
+         </div>
+         <div>
+    </div> 
 
-                <!-- Blog Post -->
 
-                <!-- Title -->
-                <h1>Post Contents</h1>
-                <hr>
 
-                <!-- Date/Time -->
-               <div id="comments" class="col-lg-12">
-                <ol class="commentlist">
-                    <li class="comment">
-                        
-                        <img alt='' src='http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=66' class='avatar' height='66' width='66' />
-                        <span class="author">Anonymous</span><a href="#" title="Tweet This" target="_blank"><img src="images/twitter.png" alt="Tweet This" class="social" /></a><a href="#" title="Share on Facebook" target="_blank"><img src="images/facebook.png" alt="Share on Facebook" class="social" /></a>
-                        <span class="time">19 days ago</span>
-                        <div class="comment-body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. &nbsp;<a class='comment-reply-link' href='#'>reply</a>                                     </p>
-                        </div>
+
+ 
+<!-- Modal -->
+
+
+
+ <!-- Modal HTML -->
+
+
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h3 class="modal-title">COAUTH Welcome to our place!</h3>
+                </div>
+                <div class="modal-body">
+<div class="container">
+<div class="row">
+<div class="col-md-5">
+<div class="form-body">
+    <ul class="nav nav-tabs final-login">
+        <li class="active"><a data-toggle="tab" href="#sectionA">Login Form</a></li>
+    </ul>
+    <div class="tab-content">
+        <div id="sectionA" class="tab-pane fade in active">
+        <div class="innter-form">
+            <form class="sa-innate-form" method="post">
+            <label>Email Address</label>
+            <input type="text" name="username">
+            <label>Password</label>
+            <input type="password" name="password">
+            <button type="submit">Sign In</button>
+            <a href="">Forgot Password?</a>
+            </form>
+            </div>
+            <div class="social-login">
+            <br>    
+            <p>- - - - - - - - - - - - - Sign In With - - - - - - - - - - - - - </p>
+            <br>    
+            <ul>
+            <li><a href=""><i class="fa fa-facebook"></i> Facebook</a></li>
+            <li><a href=""><i class="fa fa-google-plus"></i> Google+</a></li>
+            <li><a href=""><i class="fa fa-twitter"></i> Twitter</a></li>
+            </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+ 
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+                </div>
+                <div class="modal-footer">
                     
+                </div>
+            </div>
+        </div>
+    </div>
+</div>     
+ 
+        <!-- /.row -->
+  
+        <!-- Pagination -->
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <ul class="pagination">
+                           <li>
+                        <button class="btn btn-primary" href="#">LOAD MORE</button> 
                     </li>
-                    <li class="comment">
-                        
-                        <img alt='' src='http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=66' class='avatar' height='66' width='66' />
-                        <span class="author">Anonymous</span><a href="#" title="Tweet This" target="_blank"><img src="images/twitter.png" alt="Tweet This" class="social" /></a><a href="#" title="Share on Facebook" target="_blank"><img src="images/facebook.png" alt="Share on Facebook" class="social" /></a>
-                        <span class="time">19 days ago</span>
-                        <div class="comment-body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. &nbsp;<a class='comment-reply-link' href='#'>reply</a>                                     </p>
-                        </div>
-                    
-                    </li>                   
-                    <li class="comment">
-                        
-                        <img alt='' src='http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=66' class='avatar' height='66' width='66' />
-                        <span class="author">Anonymous</span><a href="#" title="Tweet This" target="_blank"><img src="images/twitter.png" alt="Tweet This" class="social" /></a><a href="#" title="Share on Facebook" target="_blank"><img src="images/facebook.png" alt="Share on Facebook" class="social" /></a>
-                        <span class="time">19 days ago</span>
-                        <div class="comment-body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. &nbsp;<a class='comment-reply-link' href='#'>reply</a>                                     </p>
-                        </div>
-                    
-                    </li>                   
-                    <li class="comment">
-                        
-                        <img alt='' src='http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=66' class='avatar' height='66' width='66' />
-                        <span class="author">Anonymous</span><a href="#" title="Tweet This" target="_blank"><img src="images/twitter.png" alt="Tweet This" class="social" /></a><a href="#" title="Share on Facebook" target="_blank"><img src="images/facebook.png" alt="Share on Facebook" class="social" /></a>
-                        <span class="time">19 days ago</span>
-                        <div class="comment-body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. &nbsp;<a class='comment-reply-link' href='#'>reply</a>                                     </p>
-                        </div>
-                    
-                    </li>                   
-                </ol>
-            </div>          
-
-
+                </ul>
             </div>
-
-            <!-- Blog Sidebar Widgets Column -->
-            <div class="col-md-4">
-
-                <!-- Blog Search Well -->
-                <div class="well" bgcolor="blue">
-                    <h4>Blog Search</h4>
-                    <div class="input-group">
-                        <input type="text" class="form-control">
-                        <span class="input-group-btn">
-                            <button class="btn btn-default" type="button">
-                                <span class="glyphicon glyphicon-search"></span>
-                        </button>
-                        </span>
-                    </div>
-                    <!-- /.input-group -->
-                </div>
-
-                <!-- Blog Categories Well -->
-                <div class="well">
-                    <h4>Blog Categories</h4>
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <ul class="list-unstyled">
-                                <li><a href="#">Category Name</a>
-                                </li>
-                                <li><a href="#">Category Name</a>
-                                </li>
-                                <li><a href="#">Category Name</a>
-                                </li>
-                                <li><a href="#">Category Name</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-6">
-                            <ul class="list-unstyled">
-                                <li><a href="#">Category Name</a>
-                                </li>
-                                <li><a href="#">Category Name</a>
-                                </li>
-                                <li><a href="#">Category Name</a>
-                                </li>
-                                <li><a href="#">Category Name</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- /.row -->
-                </div>
-
-                <!-- Side Widget Well -->
-                <div class="well">
-                    <h4>Side Widget Well</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis adipisci accusamus laudantium odit aliquam repellat tempore quos aspernatur vero.</p>
-                </div>
-
-            </div>
-
         </div>
         <!-- /.row -->
+<hr>
 
-        <hr>
+
+
+   <!-- Modal -->
+
 
         <!-- Footer -->
-   
+
+      
      <footer class="navbar fix-bottom">
             <div class="row">
                 <div class="col-lg-12">
@@ -250,7 +259,7 @@
             </div>
     </div>
 
-    </div>
+ </div>
     <!-- /#wrapper -->
 
     <!-- jQuery -->
@@ -261,6 +270,12 @@
 
     <!-- Menu Toggle Script -->
     <script>
+
+  $('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').focus()
+})
+
+
     $("#menu-toggle").click(function(e) {
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");

@@ -6,8 +6,8 @@
 
  body {
     overflow-x: hidden;
-    background: #2b3034;
-    color: #FFF;
+    background:#edf1f2;
+    color: #000;
  }
 
 /* Toggle Styles */
@@ -141,3 +141,34 @@
     color:#fb4b00 ;
 
 }
+
+.menu { 
+    padding:0 .2em 2em 2em; 
+    margin:0; 
+   } 
+.menu li { 
+    padding:0 .08em 0 .08em; 
+    list-style-type:none;
+    float: left;
+    } 
+
+.menu a, #menu a:visited { 
+       display:block; 
+       width:9em;  
+       color: #000
+       background:#54d2f2; 
+       text-align: center;
+    }
+
+.menu a:hover {
+    color: white;
+    text-decoration: overline;
+}
+.menu a:focus {
+    color:#0e8faf;
+}
+
+.menu a:visited {
+    color:#9197e0;
+}
+   
