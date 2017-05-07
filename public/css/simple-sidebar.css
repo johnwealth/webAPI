@@ -147,14 +147,14 @@
     margin:0; 
    } 
 .menu li { 
-    padding:0 .08em 0 .08em; 
+    padding: 0.5em; 
     list-style-type:none;
     float: left;
     } 
 
 .menu a, #menu a:visited { 
        display:block; 
-       width:9em;  
+       width:8em; 
        color: #000
        background:#54d2f2; 
        text-align: center;
@@ -172,3 +172,6 @@
     color:#9197e0;
 }
    
+
+
+

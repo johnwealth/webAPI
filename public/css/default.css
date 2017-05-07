@@ -20,7 +20,7 @@
 }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
     color: #fff;
-    background-color: #d14d42;
+    background-color:rgba(85, 85, 85, 0.83);
     border: none !important;
     border-bottom-color: transparent;
     border-radius:none !important;
@@ -63,8 +63,9 @@
     background:#3b5998;
 }
 .social-login ul li:nth-child(2) a{
-    background:#e74c3d;
+  background: #3f729b;
 }
+
 .social-login ul li:nth-child(3) a{
     background:#3698d9;
 }
@@ -78,7 +79,7 @@
     
 }
 .sa-innate-form input[type=submit]{
-    border:1px solid#e64b3b;
+    border:1px solid#e43f2e;
     background:#e64b3b;
     color:#fff;
     padding:10px 25px;
@@ -107,4 +108,28 @@
     .sa-innate-form p{
         font-size:13px;
         padding-top:10px;
+    }
+
+
+
+.modal.modal-wide .modal-dialog {
+  width: 90%;
+}
+.modal-wide .modal-body {
+  overflow-y: auto;
+  position: relative;
+}
+
+
+
+  .modal {
+       width: 100px;
+       height: 100px;
+       margin:0 auto;
+       display:table;
+       position: absolute;
+       left: -24.5%;
+       right:0;
+       top: 30%; 
+    
     }
