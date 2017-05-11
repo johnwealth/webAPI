@@ -16,6 +16,6 @@ app.get('/content', function(req, res){
 app.use(express.static(__dirname + '/public'));
 
 
-  app.listen(process.env.PORT || 3000, function(){
+  app.listen(PORT, function(){
   console.log('listening on port: ' + PORT);
 });
